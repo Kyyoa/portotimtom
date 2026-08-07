@@ -130,12 +130,12 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                       To
                     </span>{' '}
                     <span data-aos="fade-right" data-aos-delay="600" className="inline-block px-2 bg-gradient-to-r from-white via-sky-100 to-blue-200 bg-clip-text text-transparent">
-                      My
+                      Our
                     </span>
                   </div>
                   <div>
                     <span data-aos="fade-up" data-aos-delay="800" className="inline-block px-2 bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent">
-                      Portfolio
+                      Team
                     </span>{' '}
                     <span data-aos="fade-up" data-aos-delay="1000" className="inline-block px-2 bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent">
                       Website
@@ -153,7 +153,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
               >
                 <div className="inline-flex items-center gap-2 px-4 py-2 sm:px-6 sm:py-3 rounded-full">
                   <span className="bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent text-lg sm:text-xl md:text-2xl">
-                    <TypewriterEffect text="Kyyoa" />
+                    <TypewriterEffect text="TimTom" />
                   </span>
                 </div>
               </motion.div>

@@ -3,11 +3,11 @@ import { Code, Award, Globe } from "lucide-react"
 const teamData = [
   {
     id: "team-1",
-    name: "Rizky Yovi Attalla",
-    greeting: "Hello, I'm",
+    name: "TimTom",
+    greeting: "Hello, We Are",
     description:
-      "Saya adalah Pelajar yang berfokus pada pengembangan Front-End dan Backend. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.",
-    quote: '"Leveraging AI as a professional tool, not a replacement."',
+      "TimTom adalah tim pengembang Fullstack yang berkolaborasi dalam menciptakan pengalaman digital yang menarik, fungsional, dan solutif. Kami menggabungkan keahlian Front-End dan Back-End untuk menghadirkan solusi terbaik dalam setiap proyek.",
+    quote: '"Kolaborasi adalah kunci untuk membangun solusi digital yang berdampak."',
     photo: "/Photo.jpg",
     cvLink:
       "https://drive.google.com/drive/folders/16jtI_ekuQntP5GIR1yVRvh86o1QF_Bwk?usp=sharing",
@@ -15,15 +15,15 @@ const teamData = [
       {
         icon: Code,
         color: "from-[#38BDF8] to-[#818CF8]",
-        value: "1",
+        value: "2+",
         label: "Total Projects",
-        description: "Innovative web solutions crafted",
+        description: "Collaborative web solutions crafted",
         animation: "fade-right",
       },
       {
         icon: Award,
         color: "from-[#818CF8] to-[#38BDF8]",
-        value: "2",
+        value: "2+",
         label: "Certificates",
         description: "Professional skills validated",
         animation: "fade-up",

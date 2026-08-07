@@ -11,7 +11,7 @@ const StatusBadge = memo(() => (
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
         <span className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
           <Sparkles className="sm:w-4 sm:h-4 w-3 h-3 mr-2 text-blue-400" />
-          Ready to Innovate
+          Ready to Build Together
         </span>
       </div>
     </div>
@@ -24,14 +24,14 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#38BDF8] to-[#818CF8] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-sky-100 to-blue-200 bg-clip-text text-transparent">
-          Frontend
+          Fullstack
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#38BDF8] to-[#818CF8] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-[#38BDF8] to-[#818CF8] bg-clip-text text-transparent">
-          Developer
+          Team
         </span>
       </span>
     </h1>
@@ -76,11 +76,11 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Evolving with Full-Stack & AI", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
+const WORDS = ["Fullstack Development Team", "Building Digital Solutions Together"];
+const TECH_STACK = ["React", "JavaScript", "Node.js", "Tailwind", "Supabase"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/Kyyoa", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/rizky-yovi-attalla-49103a410/", label: "LinkedIn Profile" }
+  { icon: Github, link: "https://github.com/Kyyoa", label: "GitHub Organization" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/rizky-yovi-attalla-49103a410/", label: "Team LinkedIn" }
 ];
 
 const Home = () => {
@@ -139,22 +139,22 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Rzky Yovi Attala — Full-Stack Architect, AI-Driven Execution.</title>
-        <meta name="description" content="Portofolio resmi Rzky Yovi Attala, Full-Stack Architect dengan AI-Driven Execution. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
-     <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Rzky Yovi Attala — Full-Stack Architect, AI-Driven Execution." />
-     <meta property="og:description" content="Portofolio resmi Rzky Yovi Attala, Full-Stack Architect dengan AI-Driven Execution." />
+        <title>TimTom — Fullstack Team, Digital Solutions.</title>
+                <meta name="description" content="Portofolio resmi TimTom, Fullstack Development Team. Kami berkolaborasi dalam menciptakan pengalaman digital yang menarik dan memberikan solusi terbaik dalam setiap proyek yang kami kerjakan." />
+            <meta name="robots" content="index, follow" />
+               <meta property="og:title" content="TimTom — Fullstack Team, Digital Solutions." />
+            <meta property="og:description" content="Portofolio resmi TimTom, Fullstack Development Team yang berkolaborasi." />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Rzky Yovi Attala",
-            "jobTitle": "Full-Stack Architect",
-            "sameAs": [
-              "https://github.com/Kyyoa",
-              "https://www.linkedin.com/in/rizky-yovi-attalla-49103a410/"
-            ]
+                        "@type": "Organization",
+                        "name": "TimTom",
+                        "description": "Fullstack Development Team",
+                        "sameAs": [
+                          "https://github.com/Kyyoa",
+                          "https://www.linkedin.com/in/rizky-yovi-attalla-49103a410/"
+                        ]
           }
         `}</script>
       </Helmet>
@@ -183,7 +183,7 @@ const Home = () => {
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                    Menghadirkan kolaborasi Fullstack Team dalam membangun website yang inovatif, fungsional, dan user-friendly — hasil karya bersama TimTom.
                   </p>
 
                   {/* Tech Stack */}

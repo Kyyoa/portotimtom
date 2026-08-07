@@ -104,9 +104,9 @@ const TeamSection = memo(({ member, index }) => (
     className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
     id={member.id}
     itemScope
-    itemType="https://schema.org/Person"
+    itemType="https://schema.org/Organization"
   >
-    <Header title={`About ${index + 1}`} subtitle="Transforming ideas into digital experiences" />
+    <Header title={`Member ${index + 1}`} subtitle="Together, we transform ideas into digital experiences" />
 
     <div className="w-full mx-auto pt-8 sm:pt-12 relative">
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
