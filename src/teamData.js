@@ -8,7 +8,7 @@ const teamData = [
     description:
       "TimTom adalah tim pengembang Fullstack yang berkolaborasi dalam menciptakan pengalaman digital yang menarik, fungsional, dan solutif. Kami menggabungkan keahlian Front-End dan Back-End untuk menghadirkan solusi terbaik dalam setiap proyek.",
     quote: '"Kolaborasi adalah kunci untuk membangun solusi digital yang berdampak."',
-    photo: "/Photo.jpg",
+    photo: "/team.svg",
     cvLink:
       "https://drive.google.com/drive/folders/16jtI_ekuQntP5GIR1yVRvh86o1QF_Bwk?usp=sharing",
     stats: [
@@ -45,7 +45,7 @@ const teamData = [
     description:
       "Deskripsi untuk anggota tim kedua. Seorang profesional yang berdedikasi dalam bidang pengembangan teknologi dan selalu siap menghadirkan solusi terbaik.",
     quote: '"Collaboration is the key to innovation."',
-    photo: "/default-avatar.jpg",
+    photo: "/team.svg",
     cvLink: "#",
     stats: [
       {
@@ -81,7 +81,7 @@ const teamData = [
     description:
       "Deskripsi untuk anggota tim ketiga. Kreatif, inovatif, dan selalu bersemangat dalam menciptakan solusi digital yang berdampak.",
     quote: '"Great things are built by great teams."',
-    photo: "/default-avatar.jpg",
+    photo: "/team.svg",
     cvLink: "#",
     stats: [
       {
@@ -117,7 +117,7 @@ const teamData = [
     description:
       "Deskripsi untuk anggota tim keempat. Berpengalaman dalam berbagai proyek teknologi dan berkomitmen untuk memberikan hasil terbaik.",
     quote: '"Excellence is not a skill, it is an attitude."',
-    photo: "/default-avatar.jpg",
+    photo: "/team.svg",
     cvLink: "#",
     stats: [
       {
